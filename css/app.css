@@ -1,0 +1,147 @@
+body {
+    background: #F5F5F5;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.header li {
+    display: inline-block;
+    color: #1d3d8f;
+}
+
+.row {
+    max-width: 64rem;
+}
+
+.navigation li {
+    display: inline-block;
+    font-size: 1.1rem;
+    padding: 10px
+}
+
+.tabs {
+    background: transparent;
+    border: none;
+}
+
+.navigation {
+    background: #ED7E30;
+    min-width: 100%;
+    color: white;
+}
+
+.tabs {
+    border-bottom: solid 5px #f0690a;
+    margin-left: 1px;
+}
+
+.tabs li {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.tabs li a {
+    line-height: 3;
+}
+
+.tabs-content>.content {
+    display: none;
+    float: left;
+    width: 100%;
+}
+
+.tabs-content>.content.active {
+    display: block;
+    float: none;
+}
+
+ul>li.active a {
+    color: white;
+    background: #f0690a;
+    padding: 18px 41%;
+}
+
+.winImg {
+    background: url(../img/win.jpg);
+}
+
+.topTen li {
+    display: inline-block;
+}
+
+.trackCard {
+    margin: 5px 0px;
+    background: white;
+}
+
+.search {
+    margin: 0px;
+}
+
+.search li {
+    display: inline-block;
+    border: solid white 2px;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    color: white;
+}
+
+.serchRow {
+    background: #f0690a;
+    padding: 30px 0px;
+}
+
+.FOOTERICONS {
+    font-size: 2em;
+}
+
+.FOOTERICONS i {
+    padding: 0px 10px;
+}
+
+.postcode li {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.trending .columns {
+    padding: 5px;
+}
+
+.navigation li:hover {
+    background: #da3436;
+    transition: 0.3s;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    z-index: 1;
+    margin-left: -10px;
+    transform: translateY(-2em);
+    transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+
+.dropdown-content ul {
+    min-width: 20vw;
+}
+
+.dropdown-content ul li {
+    display: block;
+    padding: 6px 20px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transform: translateY(0%);
+    transition-delay: 0s, 0s, 0.3s;
+}
