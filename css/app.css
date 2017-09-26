@@ -1,11 +1,19 @@
 body {
-    background: #F5F5F5;
+    background: #fff;
     font-family: 'Lato', sans-serif !important;
 }
 
 .header li {
     display: inline-block;
-    color: #1d3d8f;
+    color: #000;
+}
+
+.header .fa{
+    color: #000;
+}
+
+.top-links li{
+    color: #000;
 }
 
 .row {
