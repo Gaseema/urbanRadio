@@ -9,7 +9,8 @@ body {
 }
 
 .header .fa{
-    color: #000;
+    color: #989898;
+    cursor: pointer;
 }
 
 .top-links li{
