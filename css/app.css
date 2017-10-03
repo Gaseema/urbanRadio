@@ -1,6 +1,10 @@
+@font-face {
+    font-family: abeat;
+    src: url(../fonts/ABEAKRG.TTF);
+}
 body {
     background: #F5F5F5;
-    font-family: 'Lato', sans-serif !important;
+    font-family: abeat, sans-serif !important;
 }
 
 .header li {
