@@ -169,3 +169,6 @@ ul>li.active a {
   background: #ED7E30;
   color: #fff;
 }
+.tabs-content{
+  border-bottom: 5px solid #F5F6F6;
+}
