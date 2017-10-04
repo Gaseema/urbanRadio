@@ -172,3 +172,9 @@ ul>li.active a {
 .tabs-content{
   border-bottom: 5px solid #F5F6F6;
 }
+.story{
+  padding: 0;
+}
+.story p{
+  padding: 5px;
+}
