@@ -4,6 +4,10 @@
 }
 body {
     background: #F5F5F5;
+    background-image: url('../img/image001.png');
+    background-position: center 310px;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: abeat, sans-serif !important;
 }
 
